@@ -10,8 +10,9 @@
     width: 100vw;
     padding: 10px;
     display: flex;
-
     gap: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .item {
@@ -19,6 +20,11 @@
     color: #fff;
     font-size: 22px;
     border-radius: 5px;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+.item2 {
+   
+    align-self: flex-end;
 }
